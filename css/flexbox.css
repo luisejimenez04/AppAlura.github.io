@@ -1,0 +1,115 @@
+.headerPrincipal .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerPrincipal .container .headerPrincipal-nav {
+    display: flex;
+    margin: 0 20px 0 20px;
+}
+
+.contenidoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 20%;
+}
+
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-video {
+    flex-grow: 2;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 2;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .headerPrincipal .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal .headerPrincipal-nav {
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal .contenidoPrincipal-cursos {
+        flex-direction: column;
+        align-items: initial;
+    }
+
+    .contenidoPrincipal-cursos-link {
+        width: 100%;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+    }
+
+    .rodapePrincipal-navMap-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .rodapePrincipal-patrocinadores .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .rodapePrincipal-contatoForm{
+     width: 100%;
+    }
+    .rodapePrincipal-patrocinadores-list{
+        align-items: inherit;
+        width: 100%;
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+        justify-content: center;
+    } 
+    .headerPrincipal-nav-link-app{
+        order: -1;
+    }
+}
